@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AE1B2D3727D932F30078D89D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE1B2D3627D932F30078D89D /* main.cpp */; };
+		AE1B2D3F27D934340078D89D /* Fibonacci.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE1B2D3D27D934340078D89D /* Fibonacci.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		AE1B2D3327D932F30078D89D /* Dynamic_Programming */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Dynamic_Programming; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE1B2D3627D932F30078D89D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AE1B2D3D27D934340078D89D /* Fibonacci.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Fibonacci.cpp; sourceTree = "<group>"; };
+		AE1B2D3E27D934340078D89D /* Fibonacci.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fibonacci.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				AE1B2D3627D932F30078D89D /* main.cpp */,
+				AE1B2D3D27D934340078D89D /* Fibonacci.cpp */,
+				AE1B2D3E27D934340078D89D /* Fibonacci.hpp */,
 			);
 			path = Dynamic_Programming;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE1B2D3F27D934340078D89D /* Fibonacci.cpp in Sources */,
 				AE1B2D3727D932F30078D89D /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

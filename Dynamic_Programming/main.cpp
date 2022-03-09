@@ -5,10 +5,16 @@
 //  Created by Raphael Godoy on 09.03.22.
 //
 
+#include "Fibonacci.hpp"
 #include <iostream>
+#include <map>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+using namespace std;
+
+int main() {
+    
+    Fibonacci fib;
+    fib.show_all(50);
+    
     return 0;
 }
