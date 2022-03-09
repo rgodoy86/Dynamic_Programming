@@ -17,15 +17,16 @@ Fibonacci::Fibonacci(){}
 /// Methods
 // Find the N-th Fibonacci number
 unsigned long int Fibonacci::find_fib(unsigned int n){
+    // Check if there is already the fib(n) in the map, if so, return it, no need for calculation
     if(Fibonacci::_memo.count(n) > 0) return _memo.at(n);
     
-    if(n <= 1) return 0;
-    if(n == 2) return 1;
+    // Return in case of fib(0)=0, fib(1)=1
+    if(n == 0) return 0;
+    if(n == 1) return 1;
     
+    // Recursive
     Fibonacci::_memo.insert({n,find_fib(n-1) + find_fib(n-2)});
     return find_fib(n-1) + find_fib(n-2);
-    
-    return 0;
 }
 
 // Print a list of N Fibonacci numbers
@@ -41,8 +42,6 @@ void Fibonacci::show_all(unsigned int n){
     }
     
 }
-
-
 
 // End Class
 
