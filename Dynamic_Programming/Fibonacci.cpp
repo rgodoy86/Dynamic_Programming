@@ -40,7 +40,6 @@ void Fibonacci::show_all(unsigned int n){
     for(auto it = _memo.begin(); it != _memo.end(); ++it){
         cout << "{ " << it->first << " , " << it->second << " }" << endl;
     }
-    
 }
 
 // End Class
