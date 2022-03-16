@@ -18,10 +18,10 @@ private:
     map<int,unsigned long int> _memo = {{0,0}, {1,1}};
 
 public:
-    // Constructor and Destructor
+    // Constructor
     Fibonacci();
     
-    // Utility
+    // Methods
     unsigned long int find_fib(unsigned int n);
     void show_all(unsigned int n);
 };

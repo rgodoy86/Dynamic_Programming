@@ -12,7 +12,7 @@
 using namespace std;
 
 /// Constructor
-Fibonacci::Fibonacci(){}
+Fibonacci::Fibonacci(){};
 
 /// Methods
 // Find the N-th Fibonacci number

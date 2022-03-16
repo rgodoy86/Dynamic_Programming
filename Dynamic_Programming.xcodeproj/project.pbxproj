@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AE1B2D3727D932F30078D89D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE1B2D3627D932F30078D89D /* main.cpp */; };
 		AE1B2D3F27D934340078D89D /* Fibonacci.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE1B2D3D27D934340078D89D /* Fibonacci.cpp */; };
+		AE83A89E27E260E700387A57 /* GridTraveler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE83A89C27E260E700387A57 /* GridTraveler.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		AE1B2D3627D932F30078D89D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		AE1B2D3D27D934340078D89D /* Fibonacci.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Fibonacci.cpp; sourceTree = "<group>"; };
 		AE1B2D3E27D934340078D89D /* Fibonacci.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fibonacci.hpp; sourceTree = "<group>"; };
+		AE83A89C27E260E700387A57 /* GridTraveler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GridTraveler.cpp; sourceTree = "<group>"; };
+		AE83A89D27E260E700387A57 /* GridTraveler.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GridTraveler.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				AE1B2D3627D932F30078D89D /* main.cpp */,
 				AE1B2D3D27D934340078D89D /* Fibonacci.cpp */,
 				AE1B2D3E27D934340078D89D /* Fibonacci.hpp */,
+				AE83A89C27E260E700387A57 /* GridTraveler.cpp */,
+				AE83A89D27E260E700387A57 /* GridTraveler.hpp */,
 			);
 			path = Dynamic_Programming;
 			sourceTree = "<group>";
@@ -126,6 +131,7 @@
 			files = (
 				AE1B2D3F27D934340078D89D /* Fibonacci.cpp in Sources */,
 				AE1B2D3727D932F30078D89D /* main.cpp in Sources */,
+				AE83A89E27E260E700387A57 /* GridTraveler.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
