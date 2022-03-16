@@ -18,7 +18,7 @@ int main() {
     //fib.show_all(50);
     
     GridTraveler gt;
-    gt.show_all(20,20);
+    gt.show_all(10,20);
     
     
     
